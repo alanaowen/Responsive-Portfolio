@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 	<title>Alana Owen Portfolio</title>
@@ -13,82 +14,69 @@
 <body>
 
 <!-- Header/Navigation -->
-	<header>
-
-		<div class="header">
-
-			<div id="name">
-				Alana Owen
-			</div>
-
+<header id="masthead">
+	<div class="container">
+		<a href="index.html" id="logo">Alana Owen</a>
 			<nav>
-				<ul>
+			 	<ul>
 					<li><a href="index.html">About</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
-		</div> <!-- Closed header div -->
-
-	</header>
+	</div> <!-- Closed "container" div -->
+</header>
 
 <!-- Main content -->
-	<div class="wrap">
+<div id="main-container" class="container">
+	<section class="main-section">
+		<h1>Portfolio</h1>
 
-		<div id="main">
-			<h1>Portfolio</h1>
-
-			<div class="hangman left">
-				<div class="title">Hangman
-					<img src="assets/images/hangman.jpg" style="width: 100px; height: 100px">
-				</div>
+			<div class="work">
+				<img src="assets/images/hangman.jpg" style="width: 100px; height: 100px">
+				<h3>Hangman</h3>
 			</div>
 
-			<div class="rpg right">
-				<div class="title">RPG Game
-					<img src="assets/images/RPG.png" style="width: 100px; height: 100px">
-				</div>
+			<div class="work">
+				<img src="assets/images/RPG.png" style="width: 100px; height: 100px">
+				<h3>RPG Game</h3>
 			</div>
 					
-			<div class="trivia left">
-				<div class="title">Trivia Game
-					<img src="assets/images/trivia.png" style="width: 100px; height: 100px">
-				</div>
+			<div class="work">
+				<img src="assets/images/trivia.png" style="width: 100px; height: 100px">
+				<h3>Trivia</h3>
 			</div>
 
-			<div class="rutgers right">
-				<div class="title">Rutgers Info Widget
-					<img src="assets/images/rutgers.png" style="width: 100px; height: 100px">
-				</div>
+			<div class="work">
+				<img src="assets/images/rutgers.png" style="width: 100px; height: 100px">
+				<h3>Rutgers Info Widget</h3>
 			</div>
 
-			<div class="rockpaperscissors left">
-				<div class="title">Rock Paper Scissors
-					<img src="assets/images/rock-paper-scissor.jpg" style="width: 100px; height: 100px">
-				</div>
+			<div class="work">
+				<img src="assets/images/rock-paper-scissor.jpg" style="width: 100px; height: 100px">
+				<h3>Rock Paper Scissors</h3>
 			</div>
-		</div>
+	</section> <!-- closed "main-section" section -->
 
-		<div id="sidebar">
-			<div id="icons">
-			<h1>Connect with Me</h1>
+	<section class="sidebar">
+		<div id="connect">
+			<h2>Connect with Me</h2>
 		
-				
-			<a href="https://github.com/alanaowen" target="_blank"> <img src="assets/images/if_github_square_black_107109.png" alt="github" style="width:50px;"></a>
+			<a href="https://github.com/alanaowen" target="_blank"> <img src="assets/images/if_github_square_black_107109.png" class="social" alt="github" style="width:50px;"></a>
 			
-			<a href="https://www.linkedin.com/in/alana-owen/" target="_blank"> <img src="assets/images/if_square-linkedin_317725.png" alt="linkedin" style="width: 50px;"></a>
+			<a href="https://www.linkedin.com/in/alana-owen/" target="_blank"> <img src="assets/images/if_square-linkedin_317725.png" class="social" alt="linkedin" style="width: 50px;"></a>
 			
-			<a href="https://stackexchange.com/users/9818887/alana-owen" target="_blank"> <img src="assets/images/if_stackoverflow-square-social-media_764927.png" alt="stackoverflow" style="width: 50px;"></a>
-			</div>
-			
-		</div>	
-
-	</div>  <!--Closed wrap div -->
-
-		<!-- Footer -->
-	<footer>
-			&copy Copyright 2017 Alana Owen
-	</footer>
+			<a href="https://stackexchange.com/users/9818887/alana-owen" target="_blank"> <img src="assets/images/if_stackoverflow-square-social-media_764927.png" class="social" alt="stackoverflow" style="width: 50px;"></a>	
+		</div> <!-- closed "connect" div -->
+	</section> <!-- closed "sidebar" section -->
+</div> <!-- closed "main-container" div -->
+	
+<!-- Footer -->
+<footer>
+	<div class="container">
+		Copyright &copy; 2017 Alana Owen
+	</div>
+</footer>
 	
 	
 </body>
