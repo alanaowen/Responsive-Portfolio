@@ -56,11 +56,12 @@ h3 {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   overflow: auto;
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
+
 }
 
 #logo {
@@ -80,6 +81,12 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+
+}
+
+ul li {
+	display: inline;
+	padding: 20px;
 }
 
 nav a {
@@ -239,77 +246,47 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-	.header {
-		position: static;
+	#main-container {
+		width: 100%;
 	}
 
-	#name {
-		margin-left: 200px;
+	.sidebar {
+		margin-right: 20px;
 	}
 
-	footer {
-		position: relative;
-		margin-top: 20px;
-	}
-
-	#main {
-		width: 350px;
-		margin-left: 200px;
-	}
-
-	nav {
-		width:430px;
-	}
-
-	#sidebar {
-		float: left;
-		margin-left: 20px;
-	}
 
 }
 
 @media screen and (max-width: 768px) {
-	header {
+	#masthead {
 		width: 100%;
-
 	}
 
-	#name {
+	#logo {
 		margin-left: 20px;
+
 	}
 
-	nav {
-		margin-right: 100px;
+	#main-container {
+		width: 728px;
+		margin-bottom: 40px;
 	}
 
-	
-
-	.wrap {
+	.sidebar {
 		width: 100%;
-		
-	}
-
-	#main {
-		width: 700px;
-		margin: 0 20px 20px 20px;
-
-	}
-
-	#sidebar {
-		width: 300px;
-		margin: 0 20px;
-		
+		max-width: 728px;
 	}
 
 }
 
 @media screen and (max-width: 640px) {
-	.header {
+	#masthead {
 		position: static;
 		width: 100%;
+		margin: 0 auto;
 	}
 
-	#name {
+	#logo {
 		width: 100%;
 		text-align: center;
 	}
@@ -319,15 +296,15 @@ input[type=submit] {
 		text-align: center;
 	}
 
-	.wrap {
+	#main-container {
 		width: 600px;
-		position: static;
-		margin: 0 auto;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
-	#main {
-		width: 600px;
-
+	.sidebar {
+		width: 100%;
+		max-width: 600px;
 	}
 
 	footer {
